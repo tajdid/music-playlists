@@ -8,6 +8,7 @@ body {
 }
 
 a {
+  font-weight: 700;
   text-decoration: none;
   color: #111;
   transition: color 0.3s ease-in-out;
@@ -39,14 +40,29 @@ img {
 
     a {
       font-style: normal;
-      font-weight: 700;
     }
   }
 }
 
 .playlists {
-  margin-bottom: 40px;
   .cover {
     margin-bottom: 20px;
   }
 }
+
+.site-footer {
+  padding-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.cf:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+* html .cf             { zoom: 1; } /* IE6 */
+*:first-child+html .cf { zoom: 1; } /* IE7 */
